@@ -14,8 +14,8 @@ public class Bioskop23 {
         System.out.printf("%s \t $s \n", penonton[2][0], penonton[2][1]);
         System.out.printf("%s \t $s \n", penonton[3][0], penonton[3][1]);
         System.out.println(penonton.length);
-       for (int i = 0; i < penonton.length; i++) {
-        System.out.println("panjang baris ke-" + (i+1)+ ": " + penonton[i].length);
-       }
+      for(String[] barisPenonton : penonton){
+        System.out.println("Panjang Baris " + barisPenonton.length);
+      }
     }
 }
